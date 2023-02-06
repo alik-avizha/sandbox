@@ -10,9 +10,9 @@
 //calculator(1,2,"&"); //=> result will be "unknown value"
 //calculator(1,"k","*"); //=> result will be "unknown value"
 
-function calculator(a,b,sign){
-    if (typeof(a) === 'number' && typeof(b) === 'number') {
-        switch(sign) {
+function calculator(a,b,sign) {
+    if (typeof (a) === 'number' && typeof (b) === 'number') {
+        switch (sign) {
             case "+":
                 return a + b;
             case "-":
@@ -27,3 +27,4 @@ function calculator(a,b,sign){
     } else {
         return "unknown value"
     }
+}
