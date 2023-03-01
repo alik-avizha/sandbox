@@ -7,6 +7,6 @@ function countdown(n){
         countArray.unshift(n);
         return countArray
     }
-    
+
 }
 // Only change code above this line
